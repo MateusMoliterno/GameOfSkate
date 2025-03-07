@@ -1,0 +1,2 @@
+# FILE: /skate-game/skate-game/src/assets/README.md
+Este diretório contém os ativos utilizados no jogo de skate. Os ativos podem incluir imagens de manobras, ícones, fontes e outros recursos visuais que enriquecem a experiência do usuário. Certifique-se de organizar os arquivos de forma que sejam facilmente acessíveis e referenciados no código do jogo.

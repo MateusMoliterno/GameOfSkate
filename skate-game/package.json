@@ -1,0 +1,21 @@
+{
+  "name": "skate-game",
+  "version": "1.0.0",
+  "description": "Um jogo estilo skate onde os usuários podem registrar manobras e contar pontos.",
+  "main": "src/scripts/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "keywords": [
+    "skate",
+    "game",
+    "manobras",
+    "pontuação"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

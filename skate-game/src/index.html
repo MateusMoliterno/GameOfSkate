@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skate Game</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Skate Game</h1>
+        <p>Registre suas manobras e conte seus pontos!</p>
+    </header>
+    <main>
+        <section id="players">
+            <h2>Jogadores</h2>
+            <input type="text" id="playerInput" placeholder="Digite o nome do jogador">
+            <button id="addPlayer">Adicionar Jogador</button>
+            <ul id="playerList"></ul>
+        </section>
+        <section id="maneuvers">
+            <h2>Manobras</h2>
+            <input type="text" id="maneuverInput" placeholder="Digite sua manobra aqui">
+            <button id="registerManeuver">Registrar Manobra</button>
+        </section>
+        <section id="scoreboard">
+            <h2>Placar</h2>
+            <ul id="scoreList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Skate Game. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
