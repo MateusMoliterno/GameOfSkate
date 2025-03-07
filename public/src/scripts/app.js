@@ -35,15 +35,15 @@ document.addEventListener('DOMContentLoaded', () => {
             letterSpan.textContent = player.letters;
     
             const letterButton = document.createElement('button');
-            letterButton.textContent = 'Letra';
+            letterButton.textContent = 'Letra 💀';
             letterButton.classList.add('letter-btn');
     
             const deleteButton = document.createElement('button');
-            deleteButton.textContent = '❌';
+            deleteButton.textContent = 'Destruir ❌';
             deleteButton.classList.add('delete-btn');
     
             letterButton.addEventListener('click', () => {
-                const lettersArray = ['S.', 'K.', 'A.', 'T.', 'E.'];
+                const lettersArray = ['S.', 'K.', 'A.', 'T.', 'E'];
                 
                 const currentLetterCount = player.letters.split(' ').filter(l => l).length;
                 if (currentLetterCount < lettersArray.length) {
@@ -58,8 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     
             li.appendChild(nameSpan);
-            li.appendChild(letterButton);
             li.appendChild(deleteButton);
+            li.appendChild(letterButton);
             li.appendChild(document.createElement('br'));
             li.appendChild(letterSpan);
             playerList.appendChild(li);

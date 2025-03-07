@@ -8,35 +8,35 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Eater", serif;
+    overflow-x: hidden;
 }
 
 header {
-    background-color: #333;
+    background-color: black;
     color: #fff;
-    /* padding: 1em 0; */
     text-align: center;
     width: 100vw;
 }
 
-/* main {
-    padding: 1em;
-}
-
-section {
-    margin-bottom: 1em;
-} */
-
-input[type="text"] {
-    padding: 0.5em;
-    margin-right: 0.5em;
+input {
+    width: 200px;
+    height: 25px;
+    border: solid black 2px;
+    border-radius: 4px;
+    font-family: "Eater", serif;
+    background-color: black;
+    color: white;
 }
 
 button {
     padding: 0.5em 1em;
-    background-color: #333;
+    background-color: black;
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
+    font-family: "Eater", serif;
+
 }
 
 button:hover {
@@ -50,16 +50,16 @@ ul {
 
 li {
     background-color: #fff;
-    /* margin-bottom: 0.5em;
-    padding: 0.5em; */
-    border: 1px solid #ddd;
+    border: 1px solid black;
+    border-radius: 4px;
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    height:190px;
+    justify-content: center;
+    height:220px;
     gap: 5px;
+    
 }
 
 .letters {
@@ -81,4 +81,29 @@ li {
 h1{
     font-family: "Eater", serif;
     font-size: 40px;
+}
+
+.delete-btn{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    font-family: "Eater", serif;
+}
+
+.letter-btn{
+    font-family: "Eater", serif;
+    background-color: black;
+    border-radius: 4px;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:  5px;
 }
