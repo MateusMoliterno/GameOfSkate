@@ -1,0 +1,5 @@
+criar um site onde os skatistas possam selecionar até 15 participantes para participar
+do game, o site deve anotar cada manobra que foi mandada para que os skatistas nao 
+precisem ficar lembrando das manobras que ja foram mandadas e tambem deve anotar
+com quantas letras cada um dos skatistas estao, de s.k.a.t.e e tambem deve anotar a ordem
+dos que vao saindo do game, no final vai mostrar o placar de em que colocação ficaram
